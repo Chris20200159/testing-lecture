@@ -5,4 +5,9 @@ module.exports = {
   sayHello() {
     return 'hello'
   },
+  objectMaker() {
+    const obj = {name: "cole"}
+    obj["job"] = "assistant instructor"
+    return obj
+  }
 }
